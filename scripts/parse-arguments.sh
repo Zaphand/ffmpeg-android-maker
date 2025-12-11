@@ -14,7 +14,12 @@ EXTERNAL_LIBRARIES=()
 FFMPEG_GPL_ENABLED=false
 
 # All FREE libraries that are supported
+
+#  "openh264"
+# "mbedtls"
 SUPPORTED_LIBRARIES_FREE=(
+  "openssl"
+  "libsrt"
   "libaom"
   "libdav1d"
   "libmp3lame"
@@ -25,7 +30,6 @@ SUPPORTED_LIBRARIES_FREE=(
   "libwebp"
   "libfreetype"
   "libfribidi"
-  "mbedtls"
   "libbluray"
   "libxml2"
 )
