@@ -15,9 +15,9 @@ FFMPEG_GPL_ENABLED=false
 
 # All FREE libraries that are supported
 
-#  "openh264"
 # "mbedtls"
 SUPPORTED_LIBRARIES_FREE=(
+  "libopenh264"
   "openssl"
   "libsrt"
   "libaom"
