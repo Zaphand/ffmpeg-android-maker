@@ -23,7 +23,7 @@ done
 
 # Referencing dependencies without pkgconfig
 DEP_CFLAGS="-I${BUILD_DIR_EXTERNAL}/${ANDROID_ABI}/include"
-DEP_LD_FLAGS="-L${BUILD_DIR_EXTERNAL}/${ANDROID_ABI}/lib $FFMPEG_EXTRA_LD_FLAGS -lz -lc++ -lssl -lcrypto"
+DEP_LD_FLAGS="-L${BUILD_DIR_EXTERNAL}/${ANDROID_ABI}/lib $FFMPEG_EXTRA_LD_FLAGS -lz -lc++ -lssl -lcrypto -lopenh264"
 
 # Android 15 with 16 kb page size support
 # https://developer.android.com/guide/practices/page-sizes#compile-r27
