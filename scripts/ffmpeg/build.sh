@@ -48,6 +48,8 @@ EXTRA_LDFLAGS="-Wl,-z,max-page-size=16384 $DEP_LD_FLAGS"
   --enable-shared \
   --enable-jni \
   --enable-mediacodec \
+  --enable-avdevice \
+  --enable-indev=android_camera \
   --disable-static \
   --disable-vulkan \
   --pkg-config=${PKG_CONFIG_EXECUTABLE} \
